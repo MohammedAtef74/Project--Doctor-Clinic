@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap');
+body {
+  direction: rtl;
+  text-align: right;
+  background-color: #f5f8ff;
+  font-family: 'Cairo', sans-serif;
+}
+
+h1 {
+  color: #305f71;
+}
+
+/* error MSGs */
+.errorMSG {
+  display: none;
+}
+.auth-box .form-check + .errorMSG {
+  width: fit-content;
+}
+
+.section-height {
+  min-height: 55vh;
+}

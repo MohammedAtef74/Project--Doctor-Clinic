@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../../css/all.min.css" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="../../css/global.css" />
+    <link rel="stylesheet" href="../../css/medicines.css" />
+    <link rel="stylesheet" href="../../css/layout.css" />
+    <title>Medicines</title>
+</head>
+
+<body>
+
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="">LOGO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon rounded-circle d-flex justify-content-center align-items-center">
+                    <i class="fas fa-bars text-white"></i>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../../index.html">الرئيسية <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Company/aboutus.html">من نحن</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Doctors/allDoctors.html">طاقم الاطباء</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../ContactUs/contactUs.html">تواصل معنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../SearchOnDoctor/searchOnDoctor.html">ابحث عن طبيب</a>
+                    </li>
+                </ul>
+                <div class="navbar-auth" id="authBTNs">
+                    <button class="btn">
+                        <a href="../Auth/login.html">دخول</a>
+                    </button>
+                    <button class="btn mr-3">
+                        <a href="../Auth/signup.html">تسجيل</a>
+                    </button>
+                </div>
+                <div class="navbar-auth align-items-center" id="profileBTN">
+                    <button class="btn">
+                        <a href="../Profile/profile.html">الصفحة الشخصية</a>
+                    </button>
+                    <a href="../../index.html" id="logoutBTN"><i class="fas fa-sign-out-alt logout mr-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <section class="medicines text-center section-height pt-5">
+        <div class="container">
+            <h1 class="mb-5">الادوية</h1>
+
+            <div class="row" id="allMedicines">
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Start Footer -->
+    <footer class="footer mt-5">
+        <div class="footer-upper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <div class="footer-logo d-flex align-items-center h-100">
+                            LOGO
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="footer-links">
+                            <h6><a href="../../index.html">الرئيسية</a></h6>
+                            <h6><a href="../Doctors/allDoctors.html">طاقم الاطباء</a></h6>
+                            <h6><a href="../Company/aboutus.html">من نحن</a></h6>
+                            <h6><a href="../Company/rulesAndConditions.html">الشروط والاحكام</a></h6>
+                            <h6><a href="../Company/privacy.html">سياسة الخصوصة</a></h6>
+                            <h6><a href="../ContactUs/contactUs.html">تواصل معنا</a></h6>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="footer-contacts h-100 pt-sm-5 pt-4">
+                            <div>
+                                <p>
+                                    <span><i class="far fa-envelope"></i></span>
+                                    <a href="#">info@mail.com</a>
+                                </p>
+                                <p>
+                                    <span><i class="fas fa-mobile-alt"></i></span>
+                                    <a href="#">010123456789</a>
+                                </p>
+                            </div>
+                            <div class="footer-socials">
+                                <a href="#"
+                                    class=" ml-2 d-inline-flex justify-content-center align-items-center rounded-circle"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a href="#"
+                                    class=" ml-2 d-inline-flex justify-content-center align-items-center rounded-circle"><i
+                                        class="fab fa-twitter"></i></a>
+                                <a href="#"
+                                    class=" ml-2 d-inline-flex justify-content-center align-items-center rounded-circle"><i
+                                        class="fab fa-instagram"></i></a>
+                                <a href="#"
+                                    class="d-inline-flex justify-content-center align-items-center rounded-circle"><i
+                                        class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyrights">
+            <p class="mb-0 bg-white text-center py-1">
+                Copyright © 2021 Website Name
+            </p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Bootstrap JS -->
+    <script src="../../js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../../js/popper.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/medicines.js"></script>
+    <script src="../../js/home.js"></script>
+
+</body>
+
+</html>

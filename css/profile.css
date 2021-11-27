@@ -1,0 +1,33 @@
+.profile{
+    min-height: 100vh;
+}
+.btn-save {
+  background-color: #f6921e;
+  color: #ffff;
+}
+
+.btn-change-pass {
+  background-color: #305f71;
+  color: #ffff;
+}
+.profile-modal {
+    top: 15%;
+}
+.profile-modal .modal-header {
+  background-image: url('../images/modalBG.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  height: 100px;
+}
+.close {
+  top: 15px;
+  right: 20px;
+  color: #fff;
+  opacity: 1;
+}
+.profile-modal .modal-body .btn {
+  background-color: #f6921e;
+  color: #fff;
+}

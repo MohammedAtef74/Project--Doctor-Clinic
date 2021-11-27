@@ -1,0 +1,112 @@
+/* Start Header */
+.navbar {
+  background-color: #161b1d;
+}
+.navbar .navbar-brand {
+  color: #f6921e;
+  font-size: 35px;
+}
+.navbar .nav-link,
+.navbar .navbar-auth a {
+  color: #fff;
+}
+.navbar .nav-item::after {
+  content: '';
+  border: 1px solid transparent;
+  display: block;
+  width: 0%;
+  transition: all 0.3s ease-in;
+}
+.navbar .nav-item:hover::after {
+  border: 1px solid #f6921e;
+  width: 100%;
+}
+.navbar-auth button {
+  background-color: #f6921e;
+  min-width: 110px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in;
+  border: 2px solid transparent;
+  padding: 0;
+}
+.navbar-auth button:hover {
+    background-color: transparent;
+    border-color: #f6921e;
+}
+.navbar-auth button a:hover {
+  text-decoration: none;
+}
+.navbar-auth button a {
+  display: block;
+  text-align: center;
+  padding: .375rem .75rem;
+
+}
+.navbar-toggler-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #f6921e;
+    font-size: 16px;
+}
+.logout {
+  color: #f6921e;
+  font-size: 25px;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+.logout:hover {
+  color: #fff;
+}
+/* End Header */
+
+/* Start Footer */
+.footer .footer-upper {
+  background-color: #161b1d;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+.footer .footer-logo {
+  font-size: 50px;
+  color: #fff;
+}
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer .footer-upper a, .footer-contacts p {
+  color: #fff;
+  transition: all .3s ease;
+}
+.footer .footer-upper a:hover, .footer-contacts p:hover {
+  text-decoration: none;
+  color: #f6921e;
+}
+.footer .footer-upper h6 {
+  margin-bottom: 12px;
+}
+.footer-contacts p {
+  width: fit-content;
+}
+.footer-contacts p span {
+  width: 20px;
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 10px;
+  text-align: center;
+}
+.footer-socials a {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff;
+}
+.footer-socials a:hover {
+  border-color: #f6921e;
+}
+.footer .footer-copyrights {
+  color: #161b1d;
+  font-weight: 600;
+}
+/* End Footer */

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../../css/bootstrap.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../../../css/all.min.css" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="../../../css/global.css" />
+    <link rel="stylesheet" href="../../../css/auth.css" />
+    <title>Confirm Code</title>
+</head>
+
+<body>
+
+    <div class="auth">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 col-sm-10 mx-auto">
+                    <div class="auth-box">
+                        <h3 class="text-center mb-4">أدخل رمز التأكيد</h3>
+                        <div class="auth-form">
+
+                            <div class="input-group mb-3">
+                                <input type="text" name="codePhone" id="codePhone" class="form-control"
+                                    placeholder="رمز التأكيد" aria-label="coderPhone" aria-describedby="basic-addon1">
+                            </div>
+                            <small id="codePhoneError" class="form-text mx-2 alert alert-danger errorMSG"></small>
+
+                            <button class="btn btn-block login-btn shadow-sm text-white">
+                                <a id="nextBTN">التالي</a>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="../../../js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../../../js/popper.min.js"></script>
+    <script src="../../../js/bootstrap.min.js"></script>
+    <script src="../../../js/confirmCode.js"></script>
+</body>
+
+</html>

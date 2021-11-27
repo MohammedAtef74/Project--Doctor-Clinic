@@ -1,0 +1,53 @@
+.contact {
+    background-image: url(../images/headerBG.png);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+}
+.contact-data > div {
+    border-radius: 12px;
+}
+.contact-data .form-control {
+    padding: .375rem .75rem;
+    padding: 10px 12px;
+    height: auto;
+}
+.contact-data textarea {
+    resize: none;
+}
+.contact-data .btn
+{
+    transition: all .3s ease-in;
+    color: #fff;
+    background-color: #f6921e;
+    border-radius: 50px;
+    padding: 8px 0;
+    min-width: 125px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.contact-data .btn:hover {
+    background-color: #305f71;
+}
+.item-img {
+    width: 60%;
+}
+
+@media (max-width: 991px) {
+    .item-img {
+        width: 85%;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact {
+        background-image: none;
+        background-color: #215265;
+        padding-bottom: 15px;
+    }
+    .contact-left-side {
+        order: 1;
+    }
+    .contact-right-side {
+        order: 2;
+    }
+}

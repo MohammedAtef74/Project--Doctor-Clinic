@@ -1,0 +1,15 @@
+
+.doctor-img img {
+  width: 125px;
+  height: 125px;
+  border: 2px solid #245264;
+}
+.doctor-item a {
+  color: #f6921e;
+}
+.doctor-item {
+  transition: all 0.3s ease-in;
+}
+.doctor-item:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
